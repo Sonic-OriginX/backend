@@ -80,7 +80,7 @@ async function updateStakingData(tokenKey: keyof typeof MOCK_TOKENS) {
         addressStaking: staking,
         nameToken: tokenKey,
         nameProject: MOCK_TOKENS[tokenKey].nameProject,
-        chain: "Sonic Blaze",
+        chain: "Sonic Blaze Testnet",
         apy: formattedAPY,
         stablecoin: tokenKey === "USDCe",
         categories: ["Staking", tokenKey === "USDCe" ? "Stablecoin" : ""].filter(Boolean),
